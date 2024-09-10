@@ -75,3 +75,11 @@ sudo docker run -d -p 8080:8080 flask-docker-app
 
 sudo docker ps
 
+# 9. Captura de tela
+
+![image](https://github.com/user-attachments/assets/41450c74-492d-48a5-a91f-ff3b1035ab85)
+
+# 10. Integrantes
+
+Victor Andrei
+
