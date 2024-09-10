@@ -66,17 +66,12 @@ COPY . .
 EXPOSE 8080
 CMD ["python3", "app.py"]
 
-# 7. Criar ambiente virtual
-
-python3 -m venv venv
-source venv/bin/activate
-
-# 8. Construir a imagem do docker e rodar o container
+# 7. Construir a imagem do docker e rodar o container
 
 sudo docker build -t flask-docker-app .
 sudo docker run -d -p 8080:8080 flask-docker-app
 
-# 9. Verificar o funcionamento
+# 8. Verificar o funcionamento
 
 sudo docker ps
 
